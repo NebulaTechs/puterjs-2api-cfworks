@@ -97,6 +97,8 @@ async function handleApi(request) {
   const requestId = `puter-${crypto.randomUUID()}`;
 
   switch (url.pathname) {
+    case 'v1/responses':
+      return handleModelsRequest();
     case '/v1/models':
       return handleModelsRequest();
     case '/v1/chat/completions':
