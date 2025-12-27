@@ -43,7 +43,7 @@ const CONFIG = {
     "claude-opus-4-20250514", "claude-sonnet-4-20250514",
     "claude-3-7-sonnet-20250219", "claude-3-7-sonnet-latest",
     "claude-3-haiku-20240307", "grok-beta", "grok-vision-beta", "grok-3", "grok-3-fast", "grok-3-mini",
-    "grok-3-mini-fast", "grok-2-vision", "grok-2", "gemini-2.0-flash"
+    "grok-3-mini-fast", "grok-2-vision", "grok-2", "gemini-2.0-flash","grok-4.1-fast","grok-4-fast"
   ],
   IMAGE_MODELS: ["gpt-image-1"],
   VIDEO_MODELS: ["sora-2", "sora-2-pro"],
