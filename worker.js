@@ -29,6 +29,7 @@ const CONFIG = {
   // Puter.com 凭证池 (支持多账号轮询)
   PUTER_AUTH_TOKENS: [
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0IjoiYXUiLCJ2IjoiMC4wLjAiLCJ1dSI6Ino4U1N4Z3k2VEJtbDZMTGVOUFVaZVE9PSIsImF1IjoiaWRnL2ZEMDdVTkdhSk5sNXpXUGZhUT09IiwicyI6Inc0UTJ3djM1ZHhwdkkyTlg3L3lWMlE9PSIsImlhdCI6MTc2MzQ5NDg5NX0.rSOf1PJ9ZL6Aup2Tn4mkAnVUHJCNN37tCUSlQZtBBM0",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0IjoicyIsInYiOiIwLjAuMCIsInUiOiJJODdCR0V6a1FSNjVNdEhpVUhaempBPT0iLCJ1dSI6ImRvVy9KcVJBVERxRG83NHErSGdDdEE9PSIsImlhdCI6MTc2Njg0Mzk4MX0.voFC0AhEkkXq0WJfjq7bDVWGZqRuuhYtA3zrHqQreJc"
     // 在此添加更多 auth_token 实现轮询, 例如: "eyJhbGciOi..."
   ],
 
@@ -40,7 +41,7 @@ const CONFIG = {
     "o1", "o3", "o3-mini", "o4-mini", "gpt-4.1",
     "gpt-4.1-mini", "gpt-4.1-nano", "claude-haiku-4-5-20251001",
     "claude-sonnet-4-5-20250929", "claude-opus-4-1-20250805", "claude-opus-4-1",
-    "claude-opus-4-20250514", "claude-sonnet-4-20250514",
+    "claude-opus-4-20250514", "claude-sonnet-4-20250514",  
     "claude-3-7-sonnet-20250219", "claude-3-7-sonnet-latest",
     "claude-3-haiku-20240307", "grok-beta", "grok-vision-beta", "grok-3", "grok-3-fast", "grok-3-mini",
     "grok-3-mini-fast", "grok-2-vision", "grok-2", "gemini-2.0-flash","grok-4.1-fast","grok-4-fast"
